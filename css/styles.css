@@ -23,6 +23,12 @@ ul {
 
 p {
   color: #757575;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 500;
 }
 
 h2 {
@@ -31,6 +37,7 @@ h2 {
 }
 
 h1 {
+  font-weight: 900;
   font-size: 44px;
   color: #fff;
 }
@@ -45,13 +52,16 @@ button:focus {
   background-color: #f5f4fa;
   color: var(--text-color);
   cursor: pointer;
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: 700;
 }
 
 /* head */
 
 .logo {
   font-family: Raleway;
-  font-style: Bold;
+  font-weight: bold;
   font-size: 26px;
   color: var(--excretion-color);
 }
@@ -61,6 +71,15 @@ button:focus {
 
 .navigation a:hover,
 .navigation a:focus {
+  color: var(--excretion-color);
+}
+.navigation {
+  color: var(--text-color);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.navigation .current {
   color: var(--excretion-color);
 }
 
