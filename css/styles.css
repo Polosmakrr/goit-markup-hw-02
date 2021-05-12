@@ -19,6 +19,7 @@ a {
   text-decoration: none;
   color: #000;
 }
+
 ul {
   list-style: none;
 }
@@ -44,7 +45,6 @@ h1 {
   font-size: 44px;
   line-height: 60px;
   color: #fff;
-
   text-transform: uppercase;
 }
 
@@ -57,6 +57,7 @@ button:focus {
 footer {
   background-color: var(--background-footer);
 }
+
 .hero {
   background-color: var(--background-footer);
 }
@@ -118,6 +119,7 @@ footer {
   line-height: 16px;
   text-transform: uppercase;
 }
+
 .projects > li > h3 {
   letter-spacing: 0.06em;
   line-height: 36px;
