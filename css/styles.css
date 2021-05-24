@@ -6,15 +6,6 @@
   --background-fon: #f5f4fa;
 }
 
-body {
-  font-family: 'roboto';
-  font-size: 14px;
-  line-height: 24px;
-  background-color: var(--background-main);
-  color: var(--text-color);
-  letter-spacing: 0.03em;
-}
-
 a {
   text-decoration: none;
   color: #000;
@@ -35,17 +26,18 @@ h3 {
 }
 
 h2 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
 }
 
 h1 {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   color: #fff;
   text-transform: uppercase;
+  text-align: center;
 }
 
 button:hover,
@@ -54,45 +46,13 @@ button:focus {
   color: #fff;
 }
 
-footer {
-  background-color: var(--background-footer);
-}
-
-.hero {
-  background-color: var(--background-footer);
-}
-
-.buttons {
-  background-color: #2196f3;
+body {
+  font-family: 'roboto';
+  font-size: 14px;
+  line-height: 1.71;
+  background-color: var(--background-main);
   color: var(--text-color);
-  cursor: pointer;
-  font-family: inherit;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  line-height: 30px;
-}
-
-.filter {
-  background-color: #f5f4fa;
   letter-spacing: 0.03em;
-  line-height: 26px;
-}
-
-/* head */
-
-.logo {
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  color: var(--excretion-color);
-}
-.logo-black-part {
-  color: #000000;
-}
-.logo-white-part {
-  color: #ffffff;
 }
 
 .navigation a:hover,
@@ -102,9 +62,45 @@ footer {
 .navigation {
   color: var(--text-color);
   font-weight: 500;
-  font-style: normal;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.hero {
+  background-color: var(--background-footer);
+}
+
+/* head */
+
+.buttons {
+  background-color: #2196f3;
+  color: var(--text-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.filter {
+  background-color: #f5f4fa;
+  letter-spacing: 0.03em;
+  line-height: 26px;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--excretion-color);
+}
+.logo-black-part {
+  color: #000000;
+}
+.logo-white-part {
+  color: #ffffff;
 }
 
 .navigation .current {
@@ -116,22 +112,26 @@ footer {
 }
 
 .features > li > h3 {
-  line-height: 16px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
 .projects > li > h3 {
   letter-spacing: 0.06em;
-  line-height: 36px;
+  line-height: 2;
 }
 
 .projects > li > p {
-  line-height: 30px;
+  line-height: 1.87;
 }
 
 .team-card {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
+}
+
+footer {
+  background-color: var(--background-footer);
 }
 
 .adress a {
